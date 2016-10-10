@@ -166,6 +166,37 @@
 				"X": false
 			}
 		}, {
+			"group": "SF Democratic Party",
+			"shortname": "SF Dem Party",
+			"link": "http://www.sfdemocrats.org/endorsements",
+			"recs": {
+				"RR": true,
+				"A": true,
+				"B": true,
+				"C": true,
+				"D": true,
+				"E": true,
+				"F": true,
+				"G": true,
+				"H": true,
+				"I": true,
+				"J": true,
+				"K": true,
+				"L": true,
+				"M": true,
+				"N": true,
+				"O": true,
+				"P": false,
+				"Q": false,
+				"R": false,
+				"S": true,
+				"T": true,
+				"U": false,
+				"V": true,
+				"W": true,
+				"X": true
+			}
+		}, {
 			"group": "YIMBY Party",
 			"shortname": "SFYIMBY",
 			"link": "http://www.sfyimby.org/endorsementexplainer/",
