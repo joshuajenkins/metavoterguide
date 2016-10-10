@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+	<title>SF Meta Voter Guide</title>
+	<meta name="description" content="All the San Francisco Voter Guides and recommendations in one place" />
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.5.3/css/tachyons.min.css"/>
+	<style>
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		}
+	</style>
+	<script src="https://vuejs.org/js/vue.js"></script>
+</head>
+
+<body>
+
+	<h1 class="tc mv5 f6">SF Metaguide 2016</h1>
+
+	<h2 class="tc mb4">Propositions and Measures</h2>
+
+	<div id="app">
+
+		<div class="border-box ph2" style="overflow-x: auto; max-width: 100vw">
+
+			<table class="center" style="min-width: 72em">
+
+				<tr>
+					<td style="width: 8em">Group</td>
+					<template v-for="col in cols">
+						<td class="tc" style="width: 2em">{{ col }}</td>
+					</template>
+				</tr>
+
+				<template v-for="row in rows">
+					<tr>
+						<template v-for="(item, index) in row">
+							<td v-if="index == 0" class="pv2 pr1 border-box">
+								<a v-bind:href="item.link" target="blank">{{ item.group }}</a>
+							</td>
+							<td v-else class="f4 tc">{{ (item == true) ? "👍" : (item == false) ? "❌" : "" }}</td>
+						</template>
+					</tr>
+				</template>
+
+			</table>
+
+		</div>
+
+	</div>
+
+	<script>
+		var app = new Vue({
+			el: "#app",
+			data: {
+				cols: [],
+				rows: []
+			}
+		})
+
+		function loadJSON(url, callback) {   
+			var xobj = new XMLHttpRequest()
+			xobj.overrideMimeType("application/json")
+			xobj.open("GET", url, true)
+			xobj.onreadystatechange = function () {
+				if (xobj.readyState == 4 && xobj.status == "200") {
+					callback(xobj.responseText)
+				}
+			}
+			xobj.send(null)
+		}
+
+		loadJSON("data.json", function(response) {
+			var data = JSON.parse(response)
+
+			var cols = []
+			var rows = []
+
+			data.props.map(function(prop) {
+				cols.push(prop.name)
+			})
+
+			for (var i = 0; i < data.propRecs.length; i++) {
+				var row = []
+				row.push({
+					group: data.propRecs[i].group,
+					link: data.propRecs[i].link
+				})
+				cols.map(function(col) {
+					row.push(data.propRecs[i].recs[col])
+				})
+				rows.push(row)
+			}
+
+			app.rows = rows
+			app.cols = cols
+		})
+	</script>
+</body>
+</html>

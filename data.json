@@ -1,0 +1,170 @@
+{
+	"props": [
+		{
+			"type": "measure",
+			"name": "RR",
+			"desc": "BART Bond"
+		}, {
+			"type": "prop",
+			"name": "A",
+			"desc": "School Bond"
+		}, {
+			"type": "prop",
+			"name": "B",
+			"desc": "City College Parcel Tax"
+		}, {
+			"type": "prop",
+			"name": "C",
+			"desc": "Housing Loan Program"
+		}, {
+			"type": "prop",
+			"name": "D",
+			"desc": "Vacancy Appointments"
+		}, {
+			"type": "prop",
+			"name": "E",
+			"desc": "Street Trees"
+		}, {
+			"type": "prop",
+			"name": "F",
+			"desc": "Local Voting Age"
+		}, {
+			"type": "prop",
+			"name": "G",
+			"desc": "Police Oversight"
+		}, {
+			"type": "prop",
+			"name": "H",
+			"desc": "Public Advocate"
+		}, {
+			"type": "prop",
+			"name": "I",
+			"desc": "Dignity Fund"
+		}, {
+			"type": "prop",
+			"name": "J",
+			"desc": "Dedicating the Prop. K Sales Tax"
+		}, {
+			"type": "prop",
+			"name": "K",
+			"desc": "Sales Tax for Transportation and Homelessness"
+		}, {
+			"type": "prop",
+			"name": "L",
+			"desc": "MTA Board and Budget"
+		}, {
+			"type": "prop",
+			"name": "M",
+			"desc": "Housing and Development Commission"
+		}, {
+			"type": "prop",
+			"name": "N",
+			"desc": "Noncitezen Voting"
+		}, {
+			"type": "prop",
+			"name": "O",
+			"desc": "Bayview Office Development"
+		}, {
+			"type": "prop",
+			"name": "P",
+			"desc": "Competetive Bidding"
+		}, {
+			"type": "prop",
+			"name": "Q",
+			"desc": "Tent Encampments"
+		}, {
+			"type": "prop",
+			"name": "R",
+			"desc": "Neighborhood Crime Unit"
+		}, {
+			"type": "prop",
+			"name": "S",
+			"desc": "Allocating the Hotel Tax"
+		}, {
+			"type": "prop",
+			"name": "T",
+			"desc": "Lobbyist Gifts and Reporting"
+		}, {
+			"type": "prop",
+			"name": "U",
+			"desc": "Affordable Housing Eligibility"
+		}, {
+			"type": "prop",
+			"name": "V",
+			"desc": "Soda Tax"
+		}, {
+			"type": "prop",
+			"name": "W",
+			"desc": "Transfer Tax"
+		}, {
+			"type": "prop",
+			"name": "X",
+			"desc": "Manufacturing and Arts Space"
+		}
+	],
+	"propRecs": [
+		{
+			"group": "The League of Pissed Off Voters",
+			"shortname": "League",
+			"link": "http://www.theleaguesf.org/voter_guides",
+			"recs": {
+				"RR": true,
+				"A": true,
+				"B": true,
+				"C": true,
+				"D": true,
+				"E": true,
+				"F": true,
+				"G": true,
+				"H": true,
+				"I": true,
+				"J": true,
+				"K": true,
+				"L": true,
+				"M": true,
+				"N": true,
+				"O": false,
+				"P": false,
+				"Q": false,
+				"R": false,
+				"S": true,
+				"T": true,
+				"U": false,
+				"v": true,
+				"W": true,
+				"X": true
+			}
+		}, {
+			"group": "SPUR",
+			"shortname": "SPUR",
+			"link": "https://spurvoterguide.org/",
+			"recs": {
+				"RR": true,
+				"A": true,
+				"B": true,
+				"C": true,
+				"D": false,
+				"E": true,
+				"F": true,
+				"G": true,
+				"H": false,
+				"I": false,
+				"J": true,
+				"K": true,
+				"L": false,
+				"M": false,
+				"N": true,
+				"O": true,
+				"P": false,
+				"Q": null,
+				"R": false,
+				"S": null,
+				"T": false,
+				"U": false,
+				"V": true,
+				"W": false,
+				"X": false
+			}
+		}
+	]
+}
