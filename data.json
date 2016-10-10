@@ -228,6 +228,37 @@
 				"X": true
 			}
 		}, {
+			"group": "SF Tenants Unions",
+			"shortname": "Tenants Union",
+			"link": "hhttps://www.sftu.org/endorsements/",
+			"recs": {
+				"RR": null,
+				"A": true,
+				"B": true,
+				"C": true,
+				"D": true,
+				"E": true,
+				"F": true,
+				"G": null,
+				"H": true,
+				"I": true,
+				"J": true,
+				"K": null,
+				"L": true,
+				"M": true,
+				"N": true,
+				"O": false,
+				"P": false,
+				"Q": false,
+				"R": false,
+				"S": true,
+				"T": null,
+				"U": false,
+				"V": false,
+				"W": true,
+				"X": true
+			}
+		}, {
 			"group": "YIMBY Party",
 			"shortname": "SFYIMBY",
 			"link": "http://www.sfyimby.org/endorsementexplainer/",
