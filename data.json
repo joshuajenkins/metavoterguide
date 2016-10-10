@@ -130,9 +130,40 @@
 				"S": true,
 				"T": true,
 				"U": false,
-				"v": true,
+				"V": true,
 				"W": true,
 				"X": true
+			}
+		}, {
+			"group": "Harvey Milk LGBT Democratic Club",
+			"shortname": "Milk Club",
+			"link": "http://www.milkclub.org/endorsements2016",
+			"recs": {
+				"RR": true,
+				"A": true,
+				"B": true,
+				"C": true,
+				"D": true,
+				"E": true,
+				"F": true,
+				"G": true,
+				"H": true,
+				"I": true,
+				"J": true,
+				"K": false,
+				"L": true,
+				"M": true,
+				"N": true,
+				"O": true,
+				"P": false,
+				"Q": false,
+				"R": false,
+				"S": true,
+				"T": true,
+				"U": false,
+				"V": false,
+				"W": true,
+				"X": true 
 			}
 		}, {
 			"group": "SF Bay Guardian",
