@@ -15,9 +15,9 @@
 
 <body>
 
-	<h1 class="tc mv5 f6">SF Metaguide 2016</h1>
+	<h1 class="ml5 mv5 f6">SF Metaguide 2016</h1>
 
-	<h2 class="tc mb4">Propositions and Measures</h2>
+	<h2 class="mh5 mb4 f6 normal ttu bb pb2">Propositions and Measures</h2>
 
 	<div id="app">
 
@@ -26,17 +26,17 @@
 			<table class="center" style="min-width: 72em">
 
 				<tr>
-					<td style="width: 8em">Group</td>
+					<td style="width: 6em"></td>
 					<template v-for="col in cols">
-						<td class="tc" style="width: 2em">{{ col }}</td>
+						<td class="tc f6 b" style="width: 2em">{{ col }}</td>
 					</template>
 				</tr>
 
 				<template v-for="row in rows">
 					<tr>
 						<template v-for="(item, index) in row">
-							<td v-if="index == 0" class="pv2 pr1 border-box">
-								<a v-bind:href="item.link" target="blank">{{ item.group }}</a>
+							<td v-if="index == 0" class="pv2 pr1 border-box f5" style="height: 3em">
+								<a v-bind:href="item.link" target="blank" class="dark-gray hover-black">{{ item.shortname }}</a>
 							</td>
 							<td v-else class="f4 tc gray">{{ (item == true) ? "☑️" : (item == false) ? "❌" : "-" }}</td>
 						</template>
@@ -84,6 +84,7 @@
 				var row = []
 				row.push({
 					group: data.propRecs[i].group,
+					shortname: data.propRecs[i].shortname,
 					link: data.propRecs[i].link
 				})
 				cols.map(function(col) {
