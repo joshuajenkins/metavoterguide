@@ -259,6 +259,37 @@
 				"X": true
 			}
 		}, {
+			"group": "SF Republic Party",
+			"shortname": "SF GOP",
+			"link": "http://www.sfgop.org/election-2016.html",
+			"recs": {
+				"RR": null,
+				"A": null,
+				"B": false,
+				"C": null,
+				"D": false,
+				"E": true,
+				"F": false,
+				"G": null,
+				"H": false,
+				"I": false,
+				"J": false,
+				"K": false,
+				"L": false,
+				"M": false,
+				"N": false,
+				"O": true,
+				"P": true,
+				"Q": true,
+				"R": true,
+				"S": false,
+				"T": true,
+				"U": true,
+				"V": false,
+				"W": false,
+				"X": false 
+			}
+		}, {
 			"group": "SF Tenants Unions",
 			"shortname": "Tenants Union",
 			"link": "hhttps://www.sftu.org/endorsements/",
