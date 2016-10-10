@@ -135,6 +135,37 @@
 				"X": true
 			}
 		}, {
+			"group": "SF Chronicle",
+			"shortname": "Chron",
+			"link": "http://www.sfchronicle.com/opinion/collection/Chronicle-recommends-2016-61250.php",
+			"recs": {
+				"RR": true,
+				"A": true,
+				"B": true,
+				"C": true,
+				"D": false,
+				"E": false,
+				"F": false,
+				"G": true,
+				"H": false,
+				"I": false,
+				"J": true,
+				"K": true,
+				"L": false,
+				"M": false,
+				"N": false,
+				"O": null,
+				"P": false,
+				"Q": false,
+				"R": false,
+				"S": null,
+				"T": true,
+				"U": false,
+				"V": true,
+				"W": null,
+				"X": false
+			}
+		}, {
 			"group": "SPUR",
 			"shortname": "SPUR",
 			"link": "https://spurvoterguide.org/",
