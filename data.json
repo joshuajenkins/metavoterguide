@@ -166,6 +166,37 @@
 				"X": false
 			}
 		}, {
+			"group": "YIMBY Party",
+			"shortname": "SFYIMBY",
+			"link": "http://www.sfyimby.org/endorsementexplainer/",
+			"recs": {
+				"RR": true,
+				"A": true,
+				"B": true,
+				"C": true,
+				"D": false,
+				"E": true,
+				"F": true,
+				"G": true,
+				"H": false,
+				"I": true,
+				"J": true,
+				"K": true,
+				"L": false,
+				"M": false,
+				"N": true,
+				"O": true,
+				"P": true,
+				"Q": false,
+				"R": true,
+				"S": true,
+				"T": null,
+				"U": false,
+				"V": true,
+				"W": false,
+				"X": false, 
+			}
+		}, {
 			"group": "SPUR",
 			"shortname": "SPUR",
 			"link": "https://spurvoterguide.org/",
