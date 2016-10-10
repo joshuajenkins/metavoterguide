@@ -38,7 +38,7 @@
 							<td v-if="index == 0" class="pv2 pr1 border-box">
 								<a v-bind:href="item.link" target="blank">{{ item.group }}</a>
 							</td>
-							<td v-else class="f4 tc">{{ (item == true) ? "👍" : (item == false) ? "❌" : "" }}</td>
+							<td v-else class="f4 tc gray">{{ (item == true) ? "☑️" : (item == false) ? "❌" : "-" }}</td>
 						</template>
 					</tr>
 				</template>
