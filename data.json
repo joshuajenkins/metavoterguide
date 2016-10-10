@@ -135,6 +135,37 @@
 				"X": true
 			}
 		}, {
+			"group": "SF Bay Guardian",
+			"shortname": "SFBG",
+			"link": "http://www.sfbg.com/sections/clean-slate/",
+			"recs": {
+				"RR": true,
+				"A": true,
+				"B": true,
+				"C": true,
+				"D": true,
+				"E": true,
+				"F": true,
+				"G": true,
+				"H": true,
+				"I": true,
+				"J": null,
+				"K": true,
+				"L": true,
+				"M": true,
+				"N": true,
+				"O": false,
+				"P": false,
+				"Q": false,
+				"R": true,
+				"S": true,
+				"T": true,
+				"U": false,
+				"V": true,
+				"W": true,
+				"X": true
+			}
+		}, {
 			"group": "SF Chronicle",
 			"shortname": "Chron",
 			"link": "http://www.sfchronicle.com/opinion/collection/Chronicle-recommends-2016-61250.php",
