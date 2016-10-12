@@ -382,6 +382,126 @@
 				"W": false,
 				"X": false
 			}
+		}, {
+			"group": "Alice B Toklas",
+			"shortname": "Alice B Toklas",
+			"link": "http://www.alicebtoklas.org/2016/08/novendorsements/",
+			"recs": {
+				"RR": true,
+				"A": true,
+				"C": true,
+				"B": true,
+				"E": true,
+				"D": false,
+				"G": true,
+				"F": true,
+				"I": true,
+				"H": false,
+				"K": true,
+				"J": true,
+				"M": false,
+				"L": false,
+				"O": true,
+				"N": true,
+				"Q": null,
+				"P": false,
+				"S": false,
+				"R": true,
+				"U": null,
+				"T": null,
+				"W": true,
+				"V": true,
+				"X": false
+			}
+		}, {
+			"group": "SF Green Party",
+			"shortname": "Green Party",
+			"link": "http://www.sfgreenparty.org/endorsements",
+			"recs": {
+				"RR": true,
+				"A": true,
+				"C": true,
+				"B": false,
+				"E": true,
+				"D": true,
+				"G": true,
+				"F": true,
+				"I": false,
+				"H": false,
+				"K": true,
+				"J": false,
+				"M": true,
+				"L": true,
+				"O": false,
+				"N": false,
+				"Q": false,
+				"P": false,
+				"S": true,
+				"R": false,
+				"U": null,
+				"T": false,
+				"W": true,
+				"V": true,
+				"Y": "",
+				"X": true
+			}
+		}, {
+			"group": "The League of Women Voters of San Francisco",
+			"shortname": "Women Voters",
+			"link": "http://www.lwvsf.org/elections-2/vote-with-the-league/",
+			"recs": {
+				"A": true,
+				"C": true,
+				"B": true,
+				"RR": true,
+				"G": true,
+				"F": true,
+				"S": true,
+				"U": true,
+				"W": true,
+				"V": true,
+				"X": true
+			}
+		}, {
+			"group": "The Harvey Milk Lesbian, Gay, Bisexual, Transgender Democratic Club",
+			"shortname": "Harvey Milk",
+			"link": "http://www.milkclub.org/endorsements_nov2016",
+			"recs": {
+				"A": true,
+				"C": true,
+				"B": true,
+				"E": true,
+				"D": true,
+				"RR": true,
+				"F": true,
+				"I": true,
+				"H": true,
+				"K": true,
+				"M": true,
+				"L": true,
+				"N": true,
+				"G": true,
+				"S": true,
+				"R": true,
+				"U": true,
+				"W": true,
+				"V": true,
+				"X": true
+			}
+		}, {
+			"group": "Sierra Club SF Bay Chapter",
+			"shortname": "Sierra Club",
+			"link": "http://www.sierraclub.org/san-francisco-bay/november2016endorsements",
+			"recs": {
+				"C": true,
+				"B": true,
+				"D": true,
+				"G": true,
+				"S": true,
+				"U": true,
+				"V": true,
+				"X": true
+			}
 		}
 	]
 }
